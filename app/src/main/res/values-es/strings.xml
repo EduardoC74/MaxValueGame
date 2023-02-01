@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_game">Nueva partida</string>
+    <string name="profile">Perfil</string>
+    <string name="scoreboards">Puntuaciones</string>
+    <string name="iniciarSessaoRequired">Debes iniciar sesión para jugar!</string>
+    <string name="back">Volver al menú</string>
+    <string name="go_back">Volver</string>
+    <string name="registerEmail">" Registrar E-mail"</string>
+    <string name="password">Contraseña</string>
+    <string name="loginEmail" translatable="false">Iniciar sesión E-mail</string>
+    <string name="loginGoogle" translatable="false">Iniciar sesión Google</string>
+    <string name="terms">Confirmo y acepto las condiciones del juego.</string>
+    <string name="submitprofile">Someter perfil</string>
+    <string name="resetdata">Borrar datos</string>
+    <string name="name_required">Escriba su nombre!</string>
+    <string name="username_incorrect">El nombre de usuario no puede tener más de 15 caracteres!</string>
+    <string name="email_incorrect">E-mail o contraseña inválidos!</string>
+    <string name="emailrequired">Introducir e-mail</string>
+    <string name="passwordrequired">Introducir contraseña!</string>
+    <string name="email_invalid">Introduzca un e-mail válido!</string>
+    <string name="password_invalid">La contraseña debe tener al menos 6 caracteres!</string>
+    <string name="select_country">Elija un país</string>
+    <string name="terms_required">Compruebe las condiciones.</string>
+    <string name="photoRequired">¡Saca una foto!</string>
+    <string name="profileSucess">¡Perfil editado con éxito!</string>
+    <string name="changedata">Cambiar los campos</string>
+    <string name="logout">Cerrar Sessión</string>
+    <string name="takepicture">¡Saca una foto!</string>
+    <string name="submitphoto">Someter</string>
+    <string name="previewphoto">Cargando vista previa de fotos...</string>
+    <string name="permissionsdenied">Permisos no concedidos por el usuario.</string>
+    <string name="ask_title">Título:</string>
+    <string name="hint_title">Título del boceto</string>
+    <string name="ask_background_image">Imagen de fondo:</string>
+    <string name="btn_choose_image">Elegir imagen</string>
+    <string name="login_sucess">¡Sesión iniciada!</string>
+    <string name="cancel">Anular</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="credits">Créditos</string>
+    <string name="exit">Salir</string>
+    <string name="level">"Nivel"</string>
+    <string name="time">Tiempo:</string>
+    <string name="score">Puntuación:</string>
+    <string name="single_player" translatable="false">Un Jugador</string>
+    <string name="multiplayer">Multijugador</string>
+    <string name="servermode">Modo Servidor</string>
+    <string name="clientmode" translatable="false">Modo Cliente</string>
+    <string name="username">Nombre Usuario</string>
+
+    <string name="themes">Temas</string>
+    <!-- opcoes -->
+    <string-array name="themesList">
+        <item name="Warm">Caliente</item>
+        <item name="Cold">Frío</item>
+        <item name="Exotic">Exótico</item>
+    </string-array>
+
+    <string name="lang">Idioma</string>
+
+    <string-array name="language">
+        <item name="Portuguese">Portugués</item>
+        <item name="English">Inglés</item>
+        <item name="Spanish">Español</item>
+    </string-array>
+    <string name="opt">Opciones</string>
+    <string name="backPressed">Presione de nuevo para salir!</string>
+    <string name="acertos">Acertaste:</string>
+    <string name="acertosRestantes">Golpes restantes</string>
+    <string name="server_mode">Modo servidor</string>
+    <string name="msg_ip_address">Dirección IP del servidor: %s\nEsperando a un cliente...</string>
+    <string name="client_mode">Modo servidor</string>
+    <string name="ask_ip">Dirección IP del servidor:</string>
+    <string name="button_connect">Connectar</string>
+    <string name="error_address">Dirección no reconocida</string>
+    <string name="btn_emulator">Conectarse al emulador</string>
+    <string name="startGame">Iniciar el juego</string>
+    <string name="no_clients">¡No se puede iniciar el juego!</string>
+    <string name="venceu">¡Ganador!</string>
+    <string name="perdeu">¡Perdedor!</string>
+
+</resources>

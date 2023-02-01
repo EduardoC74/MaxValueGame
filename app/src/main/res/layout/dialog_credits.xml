@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/ano_letivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMOV 2022/2023"
+        android:textColor="@color/botton_color"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/trabalho_realizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho realizado por:"
+        android:textColor="@color/botton_color"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="100dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bia">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/bia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Beatriz      Pinto"
+                android:textColor="@color/botton_color"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/eduardo">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/edu"
+                android:lines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Eduardo Correia"
+                android:textColor="@color/botton_color"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/xico">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/xico"
+                android:lines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Francisco Simões"
+                android:textColor="@color/botton_color"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

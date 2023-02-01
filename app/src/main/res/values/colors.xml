@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="app_color">#B1BCA0</color>
+    <color name="botton_color">#88BBD6</color>
+    <color name="botton_sec_color">#333A56</color>
+    <color name="operacoes_tabuleiro">#e9e9e9</color>
+    <color name="dados_jogo">#cdcdcd</color>
+    <color name="numeros_tabuleiro">#b0c4de</color>
+
+    <color name="acertou">#00cc00</color>
+    <color name="quase_acertou">#ffff00</color>
+    <color name="errou">#ff0000</color>
+    <color name="color_l1">#ffa040</color>
+    <color name="color_n1">#c6b6b4</color>
+    <color name="color_c1">#7f3e90</color>
+
+    <color name="botton_colorWarm">#FAAA94</color>
+    <color name="bottonSec_colorWarm">#80381a</color>
+
+
+    <color name="botton_colorExotic">#B1BCA0</color>
+    <color name="bottonSec_colorExotic">#6E7649</color>
+
+    <color name="tabuleiroClassico">#9E8468</color>
+    <color name="subtabuleiroClassico">#9E8468</color>
+</resources>

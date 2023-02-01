@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name" translatable="false">MaxValueGame</string>
+    <string name="new_game">New Game</string>
+    <string name="profile">Profile</string>
+    <string name="scoreboards">Scoreboards</string>
+    <string name="exit">Exit</string>
+    <string name="iniciarSessaoRequired">You must be logged in to play!</string>
+    <string name="back">Back to menu</string>
+    <string name="go_back">Go back</string>
+    <string name="single_player">Single-Player</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="servermode">Server Mode</string>
+    <string name="clientmode">Client Mode</string>
+    <string name="registerEmail">Sign Up E-mail</string>
+    <string name="loginEmail">Login E-mail</string>
+    <string name="loginGoogle">Login Google</string>
+    <string name="username">Username</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="password">Password</string>
+    <string name="terms">I confirm and accept the terms of the game.</string>
+    <string name="submitprofile">Submit Prefil</string>
+    <string name="resetdata">Delete data</string>
+    <string name="level">Level</string>
+    <string name="time">Time:</string>
+    <string name="score">Score:</string>
+
+    <string name="name_required">Insert name!</string>
+    <string name="username_incorrect">Username cannot have more than 15 characters!</string>
+    <string name="email_incorrect">Invalid e-mail or password!</string>
+    <string name="emailrequired">Enter e-mail!</string>
+    <string name="passwordrequired">Enter the password!</string>
+    <string name="email_invalid">Enter valid email address!</string>
+    <string name="password_invalid">The password must be at least 6 characters long!</string>
+    <string name="select_country">Choose a country</string>
+    <string name="terms_required">Confirm the terms!</string>
+    <string name="photoRequired">Take a picture!</string>
+    <string name="profileSucess">Profile edited successfully!</string>
+    <string name="changedata">Change the fields</string>
+    <string name="logout">Logout</string>
+
+    <string name="takepicture">Take Picture</string>
+    <string name="submitphoto">Submit</string>
+    <string name="previewphoto">Loading photo preview...</string>
+    <string name="permissionsdenied">Permissions not granted by the user.</string>
+
+    <string name="ask_title">Title:</string>
+    <string name="hint_title">Sketch title</string>
+    <string name="ask_background_image">Background image:</string>
+    <string name="btn_choose_image">Choose image</string>
+
+    <string name="login_sucess">Login successful!</string>
+    <string name="msg_ip_address">Server IP address: %s\nWaiting for a client...</string>
+    <string name="client_mode">Client mode</string>
+    <string name="ask_ip">Server IP address:</string>
+    <string name="button_connect">Connect</string>
+    <string name="error_address">Address not recognized</string>
+    <string name="btn_emulator">Connect to emulator</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Sign In</string>
+    <string name="startGame">Start Game</string>
+
+    <string name="top5" translatable="false">Top 5</string>
+
+    <string name="themes">Themes</string>
+
+    <string name="server_mode">Server mode</string>
+    <!-- opcoes -->
+    <string-array name="themesList">
+        <item name="Warm">Warm</item>
+        <item name="Cold">Cold</item>
+        <item name="Exotic">Exotic</item>
+    </string-array>
+
+    <string name="lang">Language</string>
+
+    <string-array name="language">
+        <item name="Portuguese">Portuguese</item>
+        <item name="English">English</item>
+        <item name="Spanish">Spanish</item>
+    </string-array>
+
+    <string name="credits">Credits</string>
+    <string name="opt">Option</string>
+    <string name="backPressed">Press back again to exit!</string>
+    <string name="acertos">Strike:</string>
+    <string name="acertosRestantes">Strikes left:</string>
+    <string name="no_clients">Cannot start the game!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="venceu">Winner!</string>
+    <string name="perdeu">Loser!</string>
+</resources>

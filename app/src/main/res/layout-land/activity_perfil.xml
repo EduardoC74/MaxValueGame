@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atividades.PerfilActivity"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry,UsingOnClickInXml,UseCompoundDrawables,ContentDescription,ButtonStyle"
+    android:id="@+id/perfilflayout"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:onClick="onVoltarAtras"
+        tools:ignore="">
+
+        <ImageView
+            android:id="@+id/voltarAtrasImgID"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/botton_sec_color"
+            android:paddingHorizontal="8dp"
+            android:src="@drawable/ic_seta_anterior">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/voltarAtrasID"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/botton_sec_color"
+            android:paddingVertical="10dp"
+            android:paddingEnd="15dp"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/Imagem_Perfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/border"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+
+            android:adjustViewBounds="true"
+            android:src="@drawable/avatar">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/profile"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_Perfil"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navperfil"
+
+        />
+
+</FrameLayout>

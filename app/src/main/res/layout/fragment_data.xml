@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="215dp"
+    tools:context=".fragmentos.DataFragment"
+    android:id="@+id/score2playersFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textNivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/level"
+            android:textColor="@color/botton_sec_color"
+            android:textSize="35sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/espaco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="  "
+
+            />
+
+        <TextView
+            android:id="@+id/nivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="1"
+            android:textColor="@color/botton_sec_color"
+            android:textSize="40sp"
+            android:textStyle="bold">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/tempoJogoText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/time"
+            android:textColor="@color/numeros_tabuleiro"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/score"
+            android:textColor="@color/numeros_tabuleiro"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tempoJogo"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="8s"
+            android:textColor="@color/dados_jogo"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="12"
+            android:textColor="@color/dados_jogo"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+
+        <TextView
+            android:id="@+id/acertosText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/acertos"
+            android:textColor="@color/numeros_tabuleiro"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/acertosRestantesText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/acertosRestantes"
+            android:textColor="@color/numeros_tabuleiro"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/acertos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textColor="@color/dados_jogo"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/acertosRestantes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="3"
+            android:textColor="@color/dados_jogo"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

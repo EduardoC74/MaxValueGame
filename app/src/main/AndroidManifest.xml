@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"  />
+    <!-- uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /-->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_image_tp_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TP"
+        tools:targetApi="31">
+        <activity
+            android:name=".atividades.PerfilActivity"
+            android:configChanges="orientation"
+            android:exported="true" />
+        <activity
+            android:name=".atividades.JogoActivity"
+            android:configChanges="orientation"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.ModoJogoActivity"
+            android:configChanges="orientation"
+            android:exported="true" />
+        <activity
+            android:name=".atividades.OpcoesActivity"
+            android:configChanges="orientation"
+            android:exported="true" />
+        <activity
+            android:name=".atividades.PontuacoesActivity"
+            android:configChanges="orientation"
+            android:exported="true" />
+        <activity
+            android:name=".atividades.MainActivity"
+            android:configChanges="orientation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="pt.isec.a2020139576.amovTp.android.fileprovider"
+            android:exported="false" android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <ListPreference
+        android:key="temas"
+        android:title="@string/themes"
+        android:entries="@array/themesList"
+        android:entryValues="@array/themesList"
+        android:defaultValue="Cold"/>
+
+    <ListPreference
+        android:key="language"
+        android:title="@string/lang"
+        android:entries="@array/language"
+        android:entryValues="@array/language"
+        android:defaultValue="Portuguese" />
+
+    <PreferenceScreen
+        android:key="creditos"
+        android:title="@string/credits"
+        >
+        <intent
+            android:targetPackage="pt.isec.a2020139576.amovTp"
+            android:targetClass="pt.isec.a2020139576.amovTp.atividades.OpcoesActivity"
+            />
+
+    </PreferenceScreen>
+
+
+
+</PreferenceScreen>

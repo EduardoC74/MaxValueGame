@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:id="@+id/activityumjogador"
+    tools:context=".atividades.JogoActivity">
+
+    <FrameLayout
+        android:id="@+id/dataFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="0.17"
+        android:layout_marginVertical="40dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/tabuleiroFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="0dp"
+        android:layout_weight="0.3">
+
+    </FrameLayout>
+</LinearLayout>
